@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1163670490218:jetbrains.mps.baseLanguage.structure.SwitchStatement" />
+  <root>
+    <file name="ConceptPresentationAspectImpl.java">
+      <unit at="11,0,54,0" name="OpenApiSchemasGenerator.structure.ConceptPresentationAspectImpl" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <unit at="10,0,34,0" name="OpenApiSchemasGenerator.structure.LanguageConceptSwitch" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <unit at="18,0,110,0" name="OpenApiSchemasGenerator.structure.StructureAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:5f158a74-1a78-4d4e-ae36-9b28db136cb3(OpenApiSchemasGenerator.structure)/4801552037353952780">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="4801552037353952780" at="14,0,15,0" concept="2" trace="props_SchemaItem" />
+      <node id="4801552037353952780" at="37,39,38,76" concept="5" />
+      <node id="4801552037353952780" at="38,76,39,35" concept="1" />
+      <node id="4801552037353952780" at="39,35,40,42" concept="1" />
+      <node id="4801552037353952780" at="41,9,42,32" concept="6" />
+      <node id="4801552037353952780" at="36,44,41,9" concept="3" />
+      <scope id="4801552037353952780" at="37,39,40,42">
+        <var name="cpb" id="4801552037353952780" />
+      </scope>
+      <scope id="4801552037353952780" at="36,44,42,32" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="4801552037353952780" at="14,0,15,0" concept="7" trace="SchemaItem" />
+      <node id="4801552037353952780" at="20,45,21,49" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="4801552037353952780" at="21,0,22,0" concept="2" trace="myConceptSchemaItem" />
+      <node id="4801552037353952780" at="50,44,51,35" concept="6" />
+      <node id="4801552037353952780" at="85,68,86,167" concept="5" />
+      <node id="4801552037353952780" at="86,167,87,34" concept="1" />
+      <node id="4801552037353952780" at="87,34,88,71" concept="1" />
+      <node id="4801552037353952780" at="88,71,89,110" concept="1" />
+      <node id="4801552037353952780" at="89,110,90,17" concept="1" />
+      <node id="4801552037353980159" at="90,17,91,201" concept="1" />
+      <node id="4801552037353952780" at="91,201,92,22" concept="6" />
+      <node id="4801552037353952780" at="85,0,94,0" concept="8" trace="createDescriptorForSchemaItem#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="4801552037353952780" at="50,44,51,35" />
+      <scope id="4801552037353952780" at="85,68,92,22">
+        <var name="b" id="4801552037353952780" />
+      </scope>
+      <scope id="4801552037353952780" at="85,0,94,0" />
+    </file>
+  </root>
+  <root nodeRef="r:5f158a74-1a78-4d4e-ae36-9b28db136cb3(OpenApiSchemasGenerator.structure)/4801552037353980053">
+    <file name="EnumerationDescriptor_DataType.java">
+      <node id="4801552037353980053" at="14,43,15,181" concept="9" />
+      <node id="4801552037353980054" at="18,0,19,0" concept="2" trace="myMember_string_0" />
+      <node id="4801552037353980055" at="19,0,20,0" concept="2" trace="myMember_number_0" />
+      <node id="4801552037353980058" at="20,0,21,0" concept="2" trace="myMember_integer_0" />
+      <node id="4801552037353980062" at="21,0,22,0" concept="2" trace="myMember_boolean_0" />
+      <node id="6073398569795065522" at="22,0,23,0" concept="2" trace="myMember_array_0" />
+      <node id="4801552037353980053" at="24,0,25,0" concept="2" trace="myIndex" />
+      <node id="4801552037353980053" at="25,0,26,0" concept="2" trace="myMembers" />
+      <node id="4801552037353980053" at="29,62,30,16" concept="6" />
+      <node id="4801552037353980053" at="35,68,36,21" concept="6" />
+      <node id="4801552037353980053" at="42,29,43,18" concept="6" />
+      <node id="4801552037353980054" at="46,20,47,33" concept="6" />
+      <node id="4801552037353980055" at="48,20,49,33" concept="6" />
+      <node id="4801552037353980058" at="50,21,51,34" concept="6" />
+      <node id="4801552037353980062" at="52,21,53,34" concept="6" />
+      <node id="6073398569795065522" at="54,19,55,32" concept="6" />
+      <node id="4801552037353980053" at="56,5,57,16" concept="6" />
+      <node id="4801552037353980053" at="62,73,63,39" concept="5" />
+      <node id="4801552037353980053" at="64,22,65,18" concept="6" />
+      <node id="4801552037353980053" at="66,5,67,32" concept="6" />
+      <node id="4801552037353980053" at="14,0,17,0" concept="0" trace="EnumerationDescriptor_DataType#()V" />
+      <node id="4801552037353980053" at="41,88,44,5" concept="3" />
+      <node id="4801552037353980053" at="63,39,66,5" concept="3" />
+      <node id="4801552037353980053" at="27,0,32,0" concept="4" trace="getDefault#()Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <node id="4801552037353980053" at="33,0,38,0" concept="4" trace="getMembers#()Ljava/util/List;" />
+      <node id="4801552037353980053" at="60,0,69,0" concept="4" trace="getMember#(J)Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <node id="4801552037353980053" at="44,5,56,5" concept="10" />
+      <node id="4801552037353980053" at="39,0,59,0" concept="4" trace="getMember#(Ljava/lang/String;)Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <scope id="4801552037353980053" at="14,43,15,181" />
+      <scope id="4801552037353980053" at="29,62,30,16" />
+      <scope id="4801552037353980053" at="35,68,36,21" />
+      <scope id="4801552037353980053" at="42,29,43,18" />
+      <scope id="4801552037353980054" at="46,20,47,33" />
+      <scope id="4801552037353980055" at="48,20,49,33" />
+      <scope id="4801552037353980058" at="50,21,51,34" />
+      <scope id="4801552037353980062" at="52,21,53,34" />
+      <scope id="6073398569795065522" at="54,19,55,32" />
+      <scope id="4801552037353980053" at="64,22,65,18" />
+      <scope id="4801552037353980053" at="14,0,17,0" />
+      <scope id="4801552037353980053" at="27,0,32,0" />
+      <scope id="4801552037353980053" at="33,0,38,0" />
+      <scope id="4801552037353980053" at="62,73,67,32">
+        <var name="index" id="4801552037353980053" />
+      </scope>
+      <scope id="4801552037353980053" at="60,0,69,0">
+        <var name="idValue" id="4801552037353980053" />
+      </scope>
+      <scope id="4801552037353980053" at="41,88,57,16" />
+      <scope id="4801552037353980053" at="39,0,59,0">
+        <var name="memberName" id="4801552037353980053" />
+      </scope>
+      <unit id="4801552037353980053" at="12,0,70,0" name="OpenApiSchemasGenerator.structure.EnumerationDescriptor_DataType" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="4801552037353980053" at="24,0,25,0" concept="2" trace="myEnumerationDataType" />
+    </file>
+  </root>
+  <root nodeRef="r:5f158a74-1a78-4d4e-ae36-9b28db136cb3(OpenApiSchemasGenerator.structure)/4801552037353980080">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="4801552037353980080" at="15,0,16,0" concept="2" trace="props_SchemaItemProperty" />
+      <node id="4801552037353980080" at="44,47,45,76" concept="5" />
+      <node id="4801552037353980080" at="45,76,46,35" concept="1" />
+      <node id="4801552037353980080" at="46,35,47,50" concept="1" />
+      <node id="4801552037353980080" at="48,9,49,40" concept="6" />
+      <node id="4801552037353980080" at="43,52,48,9" concept="3" />
+      <scope id="4801552037353980080" at="44,47,47,50">
+        <var name="cpb" id="4801552037353980080" />
+      </scope>
+      <scope id="4801552037353980080" at="43,52,49,40" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="4801552037353980080" at="15,0,16,0" concept="7" trace="SchemaItemProperty" />
+      <node id="4801552037353980080" at="21,49,22,57" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="4801552037353980080" at="22,0,23,0" concept="2" trace="myConceptSchemaItemProperty" />
+      <node id="4801552037353980080" at="52,52,53,43" concept="6" />
+      <node id="4801552037353980080" at="94,76,95,175" concept="5" />
+      <node id="4801552037353980080" at="95,175,96,34" concept="1" />
+      <node id="4801552037353980080" at="96,34,97,71" concept="1" />
+      <node id="4801552037353980080" at="97,71,98,110" concept="1" />
+      <node id="4801552037353980080" at="98,110,99,17" concept="1" />
+      <node id="4801552037353980081" at="99,17,100,174" concept="1" />
+      <node id="4801552037353980083" at="100,174,101,113" concept="1" />
+      <node id="4801552037353980086" at="101,113,102,117" concept="1" />
+      <node id="4801552037353980090" at="102,117,103,113" concept="1" />
+      <node id="4801552037353980095" at="103,113,104,114" concept="1" />
+      <node id="4801552037353980101" at="104,114,105,114" concept="1" />
+      <node id="4801552037354100664" at="105,114,106,197" concept="1" />
+      <node id="4801552037353980080" at="106,197,107,22" concept="6" />
+      <node id="4801552037353980080" at="94,0,109,0" concept="8" trace="createDescriptorForSchemaItemProperty#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="4801552037353980080" at="52,52,53,43" />
+      <scope id="4801552037353980080" at="94,76,107,22">
+        <var name="b" id="4801552037353980080" />
+      </scope>
+      <scope id="4801552037353980080" at="94,0,109,0" />
+    </file>
+  </root>
+  <root nodeRef="r:5f158a74-1a78-4d4e-ae36-9b28db136cb3(OpenApiSchemasGenerator.structure)/4891303712763832263">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="4891303712763832263" at="13,0,14,0" concept="2" trace="props_Schema" />
+      <node id="4891303712763832263" at="30,35,31,76" concept="5" />
+      <node id="4891303712763832263" at="31,76,32,35" concept="1" />
+      <node id="4891303712763832263" at="32,35,33,38" concept="1" />
+      <node id="4891303712763832263" at="34,9,35,28" concept="6" />
+      <node id="4891303712763832263" at="29,40,34,9" concept="3" />
+      <scope id="4891303712763832263" at="30,35,33,38">
+        <var name="cpb" id="4891303712763832263" />
+      </scope>
+      <scope id="4891303712763832263" at="29,40,35,28" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="4891303712763832263" at="13,0,14,0" concept="7" trace="Schema" />
+      <node id="4891303712763832263" at="19,62,20,45" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="4891303712763832263" at="20,0,21,0" concept="2" trace="myConceptSchema" />
+      <node id="4891303712763832263" at="48,40,49,31" concept="6" />
+      <node id="4891303712763832263" at="76,64,77,163" concept="5" />
+      <node id="4891303712763832263" at="77,163,78,33" concept="1" />
+      <node id="4891303712763832263" at="78,33,79,71" concept="1" />
+      <node id="4891303712763832263" at="79,71,80,110" concept="1" />
+      <node id="4891303712763832263" at="80,110,81,17" concept="1" />
+      <node id="4801552037353952811" at="81,17,82,202" concept="1" />
+      <node id="4891303712763832263" at="82,202,83,22" concept="6" />
+      <node id="4891303712763832263" at="76,0,85,0" concept="8" trace="createDescriptorForSchema#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="4891303712763832263" at="48,40,49,31" />
+      <scope id="4891303712763832263" at="76,64,83,22">
+        <var name="b" id="4891303712763832263" />
+      </scope>
+      <scope id="4891303712763832263" at="76,0,85,0" />
+    </file>
+  </root>
+  <root nodeRef="r:5f158a74-1a78-4d4e-ae36-9b28db136cb3(OpenApiSchemasGenerator.structure)/6073398569795065540">
+    <file name="ConceptPresentationAspectImpl.java">
+      <node id="6073398569795065540" at="12,0,13,0" concept="2" trace="props_BasicSchemaItemProperty" />
+      <node id="6073398569795065540" at="23,52,24,76" concept="5" />
+      <node id="6073398569795065540" at="24,76,25,57" concept="1" />
+      <node id="6073398569795065540" at="25,57,26,55" concept="1" />
+      <node id="6073398569795065540" at="27,9,28,45" concept="6" />
+      <node id="6073398569795065540" at="22,57,27,9" concept="3" />
+      <scope id="6073398569795065540" at="23,52,26,55">
+        <var name="cpb" id="6073398569795065540" />
+      </scope>
+      <scope id="6073398569795065540" at="22,57,28,45" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <node id="6073398569795065540" at="12,0,13,0" concept="7" trace="BasicSchemaItemProperty" />
+      <node id="6073398569795065540" at="18,115,19,62" concept="1" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="6073398569795065540" at="19,0,20,0" concept="2" trace="myConceptBasicSchemaItemProperty" />
+      <node id="6073398569795065540" at="46,57,47,48" concept="6" />
+      <node id="6073398569795065540" at="68,81,69,180" concept="5" />
+      <node id="6073398569795065540" at="69,180,70,34" concept="1" />
+      <node id="6073398569795065540" at="70,34,71,110" concept="1" />
+      <node id="6073398569795065540" at="71,110,72,17" concept="1" />
+      <node id="6073398569795065558" at="72,17,73,174" concept="1" />
+      <node id="6073398569795065540" at="73,174,74,22" concept="6" />
+      <node id="6073398569795065540" at="68,0,76,0" concept="8" trace="createDescriptorForBasicSchemaItemProperty#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <scope id="6073398569795065540" at="46,57,47,48" />
+      <scope id="6073398569795065540" at="68,81,74,22">
+        <var name="b" id="6073398569795065540" />
+      </scope>
+      <scope id="6073398569795065540" at="68,0,76,0" />
+    </file>
+  </root>
+  <root nodeRef="r:5f158a74-1a78-4d4e-ae36-9b28db136cb3(OpenApiSchemasGenerator.structure)/6073398569795065542">
+    <file name="EnumerationDescriptor_BasicDataType.java">
+      <node id="6073398569795065542" at="14,48,15,186" concept="9" />
+      <node id="6073398569795065544" at="18,0,19,0" concept="2" trace="myMember_string_0" />
+      <node id="6073398569795065547" at="19,0,20,0" concept="2" trace="myMember_number_0" />
+      <node id="6073398569795065551" at="20,0,21,0" concept="2" trace="myMember_integer_0" />
+      <node id="6073398569795065543" at="21,0,22,0" concept="2" trace="myMember_boolean_0" />
+      <node id="6073398569795065542" at="23,0,24,0" concept="2" trace="myIndex" />
+      <node id="6073398569795065542" at="24,0,25,0" concept="2" trace="myMembers" />
+      <node id="6073398569795065542" at="28,62,29,16" concept="6" />
+      <node id="6073398569795065542" at="34,68,35,21" concept="6" />
+      <node id="6073398569795065542" at="41,29,42,18" concept="6" />
+      <node id="6073398569795065544" at="45,20,46,33" concept="6" />
+      <node id="6073398569795065547" at="47,20,48,33" concept="6" />
+      <node id="6073398569795065551" at="49,21,50,34" concept="6" />
+      <node id="6073398569795065543" at="51,21,52,34" concept="6" />
+      <node id="6073398569795065542" at="53,5,54,16" concept="6" />
+      <node id="6073398569795065542" at="59,73,60,39" concept="5" />
+      <node id="6073398569795065542" at="61,22,62,18" concept="6" />
+      <node id="6073398569795065542" at="63,5,64,32" concept="6" />
+      <node id="6073398569795065542" at="14,0,17,0" concept="0" trace="EnumerationDescriptor_BasicDataType#()V" />
+      <node id="6073398569795065542" at="40,88,43,5" concept="3" />
+      <node id="6073398569795065542" at="60,39,63,5" concept="3" />
+      <node id="6073398569795065542" at="26,0,31,0" concept="4" trace="getDefault#()Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <node id="6073398569795065542" at="32,0,37,0" concept="4" trace="getMembers#()Ljava/util/List;" />
+      <node id="6073398569795065542" at="57,0,66,0" concept="4" trace="getMember#(J)Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <node id="6073398569795065542" at="43,5,53,5" concept="10" />
+      <node id="6073398569795065542" at="38,0,56,0" concept="4" trace="getMember#(Ljava/lang/String;)Ljetbrains/mps/smodel/runtime/EnumerationDescriptor/MemberDescriptor;" />
+      <scope id="6073398569795065542" at="14,48,15,186" />
+      <scope id="6073398569795065542" at="28,62,29,16" />
+      <scope id="6073398569795065542" at="34,68,35,21" />
+      <scope id="6073398569795065542" at="41,29,42,18" />
+      <scope id="6073398569795065544" at="45,20,46,33" />
+      <scope id="6073398569795065547" at="47,20,48,33" />
+      <scope id="6073398569795065551" at="49,21,50,34" />
+      <scope id="6073398569795065543" at="51,21,52,34" />
+      <scope id="6073398569795065542" at="61,22,62,18" />
+      <scope id="6073398569795065542" at="14,0,17,0" />
+      <scope id="6073398569795065542" at="26,0,31,0" />
+      <scope id="6073398569795065542" at="32,0,37,0" />
+      <scope id="6073398569795065542" at="59,73,64,32">
+        <var name="index" id="6073398569795065542" />
+      </scope>
+      <scope id="6073398569795065542" at="57,0,66,0">
+        <var name="idValue" id="6073398569795065542" />
+      </scope>
+      <scope id="6073398569795065542" at="40,88,54,16" />
+      <scope id="6073398569795065542" at="38,0,56,0">
+        <var name="memberName" id="6073398569795065542" />
+      </scope>
+      <unit id="6073398569795065542" at="12,0,67,0" name="OpenApiSchemasGenerator.structure.EnumerationDescriptor_BasicDataType" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <node id="6073398569795065542" at="23,0,24,0" concept="2" trace="myEnumerationBasicDataType" />
+    </file>
+  </root>
+</debug-info>
+

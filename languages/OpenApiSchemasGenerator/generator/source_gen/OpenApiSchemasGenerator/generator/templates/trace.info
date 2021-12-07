@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="QueriesGenerated.java">
+      <unit at="55,0,58,0" name="OpenApiSchemasGenerator.generator.templates.QueriesGenerated$PROPS" />
+      <unit at="38,0,54,0" name="OpenApiSchemasGenerator.generator.templates.QueriesGenerated$PVQ" />
+      <unit at="19,0,59,0" name="OpenApiSchemasGenerator.generator.templates.QueriesGenerated" />
+    </file>
+  </root>
+  <root nodeRef="r:6ca78552-dda7-49e1-a61c-0b561c965772(OpenApiSchemasGenerator.generator.templates@generator)/6347644125839387177">
+    <file name="QueriesGenerated.java">
+      <node id="6347644125839387681" at="24,88,25,78" concept="1" />
+      <node id="6347644125839387360" at="29,14,30,184" concept="0" />
+      <node id="6347644125839387360" at="47,15,48,66" concept="1" />
+      <node id="6347644125839387361" at="24,0,27,0" concept="2" trace="propertyMacro_GetValue_2_0#(Ljetbrains/mps/generator/template/PropertyMacroContext;)Ljava/lang/Object;" />
+      <scope id="6347644125839387362" at="24,88,25,78" />
+      <scope id="6347644125839387360" at="47,15,48,66" />
+      <scope id="6347644125839387361" at="24,0,27,0">
+        <var name="_context" id="6347644125839387361" />
+      </scope>
+    </file>
+  </root>
+</debug-info>
+
