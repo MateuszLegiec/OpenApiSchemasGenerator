@@ -988,7 +988,7 @@
                   <node concept="liA8E" id="5wnnbe1hVng" role="2OqNvi">
                     <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                     <node concept="Xl_RD" id="5wnnbe1hVnh" role="37wK5m">
-                      <property role="Xl_RC" value="string" />
+                      <property role="Xl_RC" value="integer" />
                     </node>
                   </node>
                 </node>
@@ -1120,7 +1120,7 @@
                   <node concept="liA8E" id="5wnnbe1hX3j" role="2OqNvi">
                     <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                     <node concept="Xl_RD" id="5wnnbe1hX3k" role="37wK5m">
-                      <property role="Xl_RC" value="string" />
+                      <property role="Xl_RC" value="number" />
                     </node>
                   </node>
                 </node>
@@ -1252,7 +1252,7 @@
                   <node concept="liA8E" id="5wnnbe1hYNi" role="2OqNvi">
                     <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                     <node concept="Xl_RD" id="5wnnbe1hYNj" role="37wK5m">
-                      <property role="Xl_RC" value="string" />
+                      <property role="Xl_RC" value="boolean" />
                     </node>
                   </node>
                 </node>
@@ -1735,7 +1735,7 @@
                 </node>
                 <node concept="3cpWs3" id="3j8qhjFuNNJ" role="3uHU7B">
                   <node concept="Xl_RD" id="3j8qhjFuNNK" role="3uHU7B">
-                    <property role="Xl_RC" value="get" />
+                    <property role="Xl_RC" value="is" />
                   </node>
                   <node concept="2OqwBi" id="3j8qhjFuNNL" role="3uHU7w">
                     <node concept="2OqwBi" id="3j8qhjFuNNM" role="2Oq$k0">

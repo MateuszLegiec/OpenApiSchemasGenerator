@@ -103,7 +103,7 @@ public class QueriesGenerated extends QueryProviderBase {
     return "get" + SPropertyOperations.getString(_context.getNode(), PROPS.name$MnvL).substring(0, 1).toUpperCase() + SPropertyOperations.getString(_context.getNode(), PROPS.name$MnvL).substring(1);
   }
   public static Object propertyMacro_GetValue_2_24(final PropertyMacroContext _context) {
-    return "get" + SPropertyOperations.getString(_context.getNode(), PROPS.name$MnvL).substring(0, 1).toUpperCase() + SPropertyOperations.getString(_context.getNode(), PROPS.name$MnvL).substring(1);
+    return "is" + SPropertyOperations.getString(_context.getNode(), PROPS.name$MnvL).substring(0, 1).toUpperCase() + SPropertyOperations.getString(_context.getNode(), PROPS.name$MnvL).substring(1);
   }
   public static Object propertyMacro_GetValue_2_25(final PropertyMacroContext _context) {
     return "get" + SPropertyOperations.getString(_context.getNode(), PROPS.name$MnvL).substring(0, 1).toUpperCase() + SPropertyOperations.getString(_context.getNode(), PROPS.name$MnvL).substring(1);
@@ -229,19 +229,19 @@ public class QueriesGenerated extends QueryProviderBase {
     return isNotEmptyString(SPropertyOperations.getString(_context.getNode(), PROPS.description$shzp));
   }
   public static boolean ifMacro_Condition_2_14(final IfMacroContext _context) {
-    return SPropertyOperations.getEnum(_context.getNode(), PROPS.type$sgok).toString().equals("array") && SPropertyOperations.getEnum(SLinkOperations.getTarget(_context.getNode(), LINKS.items$Nuew), PROPS.type$ZAQU).toString().equals("string");
+    return SPropertyOperations.getEnum(_context.getNode(), PROPS.type$sgok).toString().equals("array") && SPropertyOperations.getEnum(SLinkOperations.getTarget(_context.getNode(), LINKS.items$Nuew), PROPS.type$ZAQU).toString().equals("integer");
   }
   public static boolean ifMacro_Condition_2_15(final IfMacroContext _context) {
     return isNotEmptyString(SPropertyOperations.getString(_context.getNode(), PROPS.description$shzp));
   }
   public static boolean ifMacro_Condition_2_16(final IfMacroContext _context) {
-    return SPropertyOperations.getEnum(_context.getNode(), PROPS.type$sgok).toString().equals("array") && SPropertyOperations.getEnum(SLinkOperations.getTarget(_context.getNode(), LINKS.items$Nuew), PROPS.type$ZAQU).toString().equals("string");
+    return SPropertyOperations.getEnum(_context.getNode(), PROPS.type$sgok).toString().equals("array") && SPropertyOperations.getEnum(SLinkOperations.getTarget(_context.getNode(), LINKS.items$Nuew), PROPS.type$ZAQU).toString().equals("number");
   }
   public static boolean ifMacro_Condition_2_17(final IfMacroContext _context) {
     return isNotEmptyString(SPropertyOperations.getString(_context.getNode(), PROPS.description$shzp));
   }
   public static boolean ifMacro_Condition_2_18(final IfMacroContext _context) {
-    return SPropertyOperations.getEnum(_context.getNode(), PROPS.type$sgok).toString().equals("array") && SPropertyOperations.getEnum(SLinkOperations.getTarget(_context.getNode(), LINKS.items$Nuew), PROPS.type$ZAQU).toString().equals("string");
+    return SPropertyOperations.getEnum(_context.getNode(), PROPS.type$sgok).toString().equals("array") && SPropertyOperations.getEnum(SLinkOperations.getTarget(_context.getNode(), LINKS.items$Nuew), PROPS.type$ZAQU).toString().equals("boolean");
   }
   public static boolean ifMacro_Condition_2_19(final IfMacroContext _context) {
     return isNotEmptyString(SPropertyOperations.getString(_context.getNode(), PROPS.description$shzp));
