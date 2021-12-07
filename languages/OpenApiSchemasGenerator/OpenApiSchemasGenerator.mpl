@@ -54,6 +54,8 @@
         <module reference="0d81570c-3b88-484b-a679-6a5b026c7325(OpenApiSchemasGenerator)" version="0" />
         <module reference="ed4e189b-7361-49e1-ac24-83a61769e37a(OpenApiSchemasGenerator.generator)" version="0" />
         <module reference="8b8062f8-98c5-416d-9113-8f493b2632aa(OpenApiSchemasGenerator.runtime)" version="0" />
+        <module reference="4c6a28d1-2c60-478d-b36e-db9b3cbb21fb(closures.runtime)" version="0" />
+        <module reference="9b80526e-f0bf-4992-bdf5-cee39c1833f3(collections.runtime)" version="0" />
         <module reference="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" version="0" />
         <module reference="fd392034-7849-419d-9071-12563d152375(jetbrains.mps.baseLanguage.closures)" version="0" />
         <module reference="83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)" version="0" />

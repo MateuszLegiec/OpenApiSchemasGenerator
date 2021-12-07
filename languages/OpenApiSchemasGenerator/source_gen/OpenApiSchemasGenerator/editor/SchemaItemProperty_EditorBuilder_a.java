@@ -88,12 +88,24 @@ import org.jetbrains.mps.openapi.language.SConcept;
     if (nodeCondition_lpv9ch_a31a()) {
       editorCell.addEditorCell(createProperty_4());
     }
-    editorCell.addEditorCell(createConstant_9());
-    editorCell.addEditorCell(createConstant_10());
-    editorCell.addEditorCell(createProperty_5());
-    editorCell.addEditorCell(createConstant_11());
-    editorCell.addEditorCell(createConstant_12());
-    editorCell.addEditorCell(createProperty_6());
+    if (nodeCondition_lpv9ch_a41a()) {
+      editorCell.addEditorCell(createConstant_9());
+    }
+    if (nodeCondition_lpv9ch_a51a()) {
+      editorCell.addEditorCell(createConstant_10());
+    }
+    if (nodeCondition_lpv9ch_a61a()) {
+      editorCell.addEditorCell(createProperty_5());
+    }
+    if (nodeCondition_lpv9ch_a71a()) {
+      editorCell.addEditorCell(createConstant_11());
+    }
+    if (nodeCondition_lpv9ch_a81a()) {
+      editorCell.addEditorCell(createConstant_12());
+    }
+    if (nodeCondition_lpv9ch_a91a()) {
+      editorCell.addEditorCell(createProperty_6());
+    }
     if (nodeCondition_lpv9ch_a02a()) {
       editorCell.addEditorCell(createConstant_13());
     }
@@ -112,37 +124,55 @@ import org.jetbrains.mps.openapi.language.SConcept;
     return editorCell;
   }
   private boolean nodeCondition_lpv9ch_a5a() {
-    return (SPropertyOperations.getEnum(myNode, PROPS.type$AY2F) != null) && SPropertyOperations.getEnum(myNode, PROPS.type$AY2F).toString() != "array";
+    return (SPropertyOperations.getEnum(myNode, PROPS.type$sgok) != null) && !(SPropertyOperations.getEnum(myNode, PROPS.type$sgok).toString().equals("array"));
   }
   private boolean nodeCondition_lpv9ch_a6a() {
-    return (SPropertyOperations.getEnum(myNode, PROPS.type$AY2F) != null) && SPropertyOperations.getEnum(myNode, PROPS.type$AY2F).toString() != "array";
+    return (SPropertyOperations.getEnum(myNode, PROPS.type$sgok) != null) && !(SPropertyOperations.getEnum(myNode, PROPS.type$sgok).toString().equals("array"));
   }
   private boolean nodeCondition_lpv9ch_a7a() {
-    return (SPropertyOperations.getEnum(myNode, PROPS.type$AY2F) != null) && SPropertyOperations.getEnum(myNode, PROPS.type$AY2F).toString() != "array";
+    return (SPropertyOperations.getEnum(myNode, PROPS.type$sgok) != null) && !(SPropertyOperations.getEnum(myNode, PROPS.type$sgok).toString().equals("array"));
   }
   private boolean nodeCondition_lpv9ch_a11a() {
-    return (SPropertyOperations.getEnum(myNode, PROPS.type$AY2F) != null) && SPropertyOperations.getEnum(myNode, PROPS.type$AY2F).toString() == "string";
+    return (SPropertyOperations.getEnum(myNode, PROPS.type$sgok) != null) && SPropertyOperations.getEnum(myNode, PROPS.type$sgok).toString().equals("string");
   }
   private boolean nodeCondition_lpv9ch_a21a() {
-    return (SPropertyOperations.getEnum(myNode, PROPS.type$AY2F) != null) && SPropertyOperations.getEnum(myNode, PROPS.type$AY2F).toString() == "string";
+    return (SPropertyOperations.getEnum(myNode, PROPS.type$sgok) != null) && SPropertyOperations.getEnum(myNode, PROPS.type$sgok).toString().equals("string");
   }
   private boolean nodeCondition_lpv9ch_a31a() {
-    return (SPropertyOperations.getEnum(myNode, PROPS.type$AY2F) != null) && SPropertyOperations.getEnum(myNode, PROPS.type$AY2F).toString() == "string";
+    return (SPropertyOperations.getEnum(myNode, PROPS.type$sgok) != null) && SPropertyOperations.getEnum(myNode, PROPS.type$sgok).toString().equals("string");
+  }
+  private boolean nodeCondition_lpv9ch_a41a() {
+    return (SPropertyOperations.getEnum(myNode, PROPS.type$sgok) != null) && !(SPropertyOperations.getEnum(myNode, PROPS.type$sgok).toString().equals("boolean"));
+  }
+  private boolean nodeCondition_lpv9ch_a51a() {
+    return (SPropertyOperations.getEnum(myNode, PROPS.type$sgok) != null) && !(SPropertyOperations.getEnum(myNode, PROPS.type$sgok).toString().equals("boolean"));
+  }
+  private boolean nodeCondition_lpv9ch_a61a() {
+    return (SPropertyOperations.getEnum(myNode, PROPS.type$sgok) != null) && !(SPropertyOperations.getEnum(myNode, PROPS.type$sgok).toString().equals("boolean"));
+  }
+  private boolean nodeCondition_lpv9ch_a71a() {
+    return (SPropertyOperations.getEnum(myNode, PROPS.type$sgok) != null) && !(SPropertyOperations.getEnum(myNode, PROPS.type$sgok).toString().equals("boolean"));
+  }
+  private boolean nodeCondition_lpv9ch_a81a() {
+    return (SPropertyOperations.getEnum(myNode, PROPS.type$sgok) != null) && !(SPropertyOperations.getEnum(myNode, PROPS.type$sgok).toString().equals("boolean"));
+  }
+  private boolean nodeCondition_lpv9ch_a91a() {
+    return (SPropertyOperations.getEnum(myNode, PROPS.type$sgok) != null) && !(SPropertyOperations.getEnum(myNode, PROPS.type$sgok).toString().equals("boolean"));
   }
   private boolean nodeCondition_lpv9ch_a02a() {
-    return (SPropertyOperations.getEnum(myNode, PROPS.type$AY2F) != null) && SPropertyOperations.getEnum(myNode, PROPS.type$AY2F).toString().equals("array");
+    return (SPropertyOperations.getEnum(myNode, PROPS.type$sgok) != null) && SPropertyOperations.getEnum(myNode, PROPS.type$sgok).toString().equals("array");
   }
   private boolean nodeCondition_lpv9ch_a12a() {
-    return (SPropertyOperations.getEnum(myNode, PROPS.type$AY2F) != null) && SPropertyOperations.getEnum(myNode, PROPS.type$AY2F).toString().equals("array");
+    return (SPropertyOperations.getEnum(myNode, PROPS.type$sgok) != null) && SPropertyOperations.getEnum(myNode, PROPS.type$sgok).toString().equals("array");
   }
   private boolean nodeCondition_lpv9ch_a22a() {
-    return (SPropertyOperations.getEnum(myNode, PROPS.type$AY2F) != null) && SPropertyOperations.getEnum(myNode, PROPS.type$AY2F).toString().equals("array");
+    return (SPropertyOperations.getEnum(myNode, PROPS.type$sgok) != null) && SPropertyOperations.getEnum(myNode, PROPS.type$sgok).toString().equals("array");
   }
   private boolean nodeCondition_lpv9ch_a32a() {
-    return (SPropertyOperations.getEnum(myNode, PROPS.type$AY2F) != null) && SPropertyOperations.getEnum(myNode, PROPS.type$AY2F).toString().equals("array");
+    return (SPropertyOperations.getEnum(myNode, PROPS.type$sgok) != null) && SPropertyOperations.getEnum(myNode, PROPS.type$sgok).toString().equals("array");
   }
   private boolean nodeCondition_lpv9ch_a42a() {
-    return (SPropertyOperations.getEnum(myNode, PROPS.type$AY2F) != null) && SPropertyOperations.getEnum(myNode, PROPS.type$AY2F).toString().equals("array");
+    return (SPropertyOperations.getEnum(myNode, PROPS.type$sgok) != null) && SPropertyOperations.getEnum(myNode, PROPS.type$sgok).toString().equals("array");
   }
   private EditorCell createProperty_0() {
     getCellFactory().pushCellContext();
@@ -547,9 +577,8 @@ import org.jetbrains.mps.openapi.language.SConcept;
   }
 
   private static final class PROPS {
-    /*package*/ static final SProperty type$AY2F = MetaAdapterFactory.getProperty(0xad4577dbf948400aL, 0x8625ea3d0c275e32L, 0x42a28a23650980b0L, 0x42a28a23650980b1L, "type");
-    /*package*/ static final SProperty name$MnvL = MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name");
     /*package*/ static final SProperty type$sgok = MetaAdapterFactory.getProperty(0xd81570c3b88484bL, 0xa6796a5b026c7325L, 0x42a28a23650980b0L, 0x42a28a23650980b1L, "type");
+    /*package*/ static final SProperty name$MnvL = MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name");
     /*package*/ static final SProperty default$sgQm = MetaAdapterFactory.getProperty(0xd81570c3b88484bL, 0xa6796a5b026c7325L, 0x42a28a23650980b0L, 0x42a28a23650980b3L, "default");
     /*package*/ static final SProperty description$shzp = MetaAdapterFactory.getProperty(0xd81570c3b88484bL, 0xa6796a5b026c7325L, 0x42a28a23650980b0L, 0x42a28a23650980b6L, "description");
     /*package*/ static final SProperty pattern$snqM = MetaAdapterFactory.getProperty(0xd81570c3b88484bL, 0xa6796a5b026c7325L, 0x42a28a23650980b0L, 0x42a28a23650980baL, "pattern");

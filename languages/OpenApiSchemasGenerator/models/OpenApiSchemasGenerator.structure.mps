@@ -162,12 +162,12 @@
     <node concept="1TJgyi" id="4ayyyd_2o2Z" role="1TKVEl">
       <property role="IQ2nx" value="4801552037353980095" />
       <property role="TrG5h" value="minimum" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyi" id="4ayyyd_2o35" role="1TKVEl">
       <property role="IQ2nx" value="4801552037353980101" />
       <property role="TrG5h" value="maximum" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="PrWs8" id="4ayyyd_2o41" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />

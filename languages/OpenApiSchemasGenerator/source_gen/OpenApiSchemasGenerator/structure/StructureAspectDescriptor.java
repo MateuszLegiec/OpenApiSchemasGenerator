@@ -101,8 +101,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.property("default", 0x42a28a23650980b3L).type(PrimitiveTypeId.STRING).origin("4801552037353980083").done();
     b.property("description", 0x42a28a23650980b6L).type(PrimitiveTypeId.STRING).origin("4801552037353980086").done();
     b.property("pattern", 0x42a28a23650980baL).type(PrimitiveTypeId.STRING).origin("4801552037353980090").done();
-    b.property("minimum", 0x42a28a23650980bfL).type(PrimitiveTypeId.INTEGER).origin("4801552037353980095").done();
-    b.property("maximum", 0x42a28a23650980c5L).type(PrimitiveTypeId.INTEGER).origin("4801552037353980101").done();
+    b.property("minimum", 0x42a28a23650980bfL).type(PrimitiveTypeId.STRING).origin("4801552037353980095").done();
+    b.property("maximum", 0x42a28a23650980c5L).type(PrimitiveTypeId.STRING).origin("4801552037353980101").done();
     b.aggregate("items", 0x42a28a23650b57b8L).target(0xd81570c3b88484bL, 0xa6796a5b026c7325L, 0x54490bd22c0016c4L).optional(true).ordered(true).multiple(false).origin("4801552037354100664").done();
     return b.create();
   }

@@ -145,9 +145,9 @@
       <node id="4801552037353980083" at="100,174,101,113" concept="1" />
       <node id="4801552037353980086" at="101,113,102,117" concept="1" />
       <node id="4801552037353980090" at="102,117,103,113" concept="1" />
-      <node id="4801552037353980095" at="103,113,104,114" concept="1" />
-      <node id="4801552037353980101" at="104,114,105,114" concept="1" />
-      <node id="4801552037354100664" at="105,114,106,197" concept="1" />
+      <node id="4801552037353980095" at="103,113,104,113" concept="1" />
+      <node id="4801552037353980101" at="104,113,105,113" concept="1" />
+      <node id="4801552037354100664" at="105,113,106,197" concept="1" />
       <node id="4801552037353980080" at="106,197,107,22" concept="6" />
       <node id="4801552037353980080" at="94,0,109,0" concept="8" trace="createDescriptorForSchemaItemProperty#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="4801552037353980080" at="52,52,53,43" />
